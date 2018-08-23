@@ -1,0 +1,1 @@
+Using library report unit in unit console was generated HTML report from previosly generated XML.

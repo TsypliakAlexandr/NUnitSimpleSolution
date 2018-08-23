@@ -1,0 +1,1 @@
+Using nunit3-console.exe was executed generation of XML file, logging library attached. 

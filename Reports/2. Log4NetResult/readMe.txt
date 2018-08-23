@@ -1,0 +1,1 @@
+For additional logging was used Log4Net plugin, it configuration, logs and library for writing logs are attached. 

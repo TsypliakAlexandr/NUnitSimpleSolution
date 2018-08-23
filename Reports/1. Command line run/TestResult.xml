@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="147" result="Failed" total="147" passed="93" failed="54" inconclusive="0" skipped="0" asserts="106" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-07-20 17:43:48Z" end-time="2018-07-20 17:43:50Z" duration="1.942462">
+  <command-line><![CDATA[D:\Tsypliak\HomeTask1-master\packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe  D:\Tsypliak\HomeTask1-master\AutoTest\bin\Debug\AutoTest.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1170" name="AutoTest.dll" fullname="D:\Tsypliak\HomeTask1-master\AutoTest\bin\Debug\AutoTest.dll" runstate="Runnable" testcasecount="147" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.513966" total="147" passed="93" failed="54" warnings="0" inconclusive="0" skipped="0" asserts="106">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\Oleksandr_Tsypliak" machine-name="EPUAKYIW2777" user="Oleksandr_Tsypliak" user-domain="KYIV" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Oleksandr_Tsypliak" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="LevelOfParallelism" value="4" />
+      <property name="_PID" value="8080" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1171" name="AutoTest" fullname="AutoTest" runstate="Runnable" testcasecount="147" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.489071" total="147" passed="93" failed="54" warnings="0" inconclusive="0" skipped="0" asserts="106">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1151" name="isPositive_test" fullname="AutoTest.isPositive_test" classname="AutoTest.isPositive_test" runstate="Runnable" testcasecount="17" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.083122" total="17" passed="17" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <test-suite type="ParameterizedMethod" id="0-1169" name="isPositive" fullname="AutoTest.isPositive_test.isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" testcasecount="17" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.076926" total="17" passed="17" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+          <test-case id="0-1152" name="isPositive(&quot;1&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;1&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="995055028" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.039908" asserts="1">
+            <output><![CDATA[isPositive("1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1153" name="isPositive(&quot;-1&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;-1&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="2099943672" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.000730" asserts="1">
+            <output><![CDATA[isPositive("-1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1154" name="isPositive(&quot;1.2&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;1.2&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="500790308" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.000507" asserts="1">
+            <output><![CDATA[isPositive("1.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1155" name="isPositive(&quot;1.0&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;1.0&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="400663062" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.006431" asserts="1">
+            <output><![CDATA[isPositive("1.0")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1156" name="isPositive(&quot;-1.2&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;-1.2&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="1846898842" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000647" asserts="1">
+            <output><![CDATA[isPositive("-1.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1157" name="isPositive(&quot;0.0&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;0.0&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="655430949" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000393" asserts="1">
+            <output><![CDATA[isPositive("0.0")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1158" name="isPositive(1)" fullname="AutoTest.isPositive_test.isPositive(1)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="797156734" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000495" asserts="1">
+            <output><![CDATA[isPositive(1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1159" name="isPositive(-1)" fullname="AutoTest.isPositive_test.isPositive(-1)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="479615862" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000625" asserts="1">
+            <output><![CDATA[isPositive(-1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1160" name="isPositive(0)" fullname="AutoTest.isPositive_test.isPositive(0)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="221896288" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000652" asserts="1">
+            <output><![CDATA[isPositive(0)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1161" name="isPositive(1.0d)" fullname="AutoTest.isPositive_test.isPositive(1.0d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="687989240" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001074" asserts="1">
+            <output><![CDATA[isPositive(1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1162" name="isPositive(1.2d)" fullname="AutoTest.isPositive_test.isPositive(1.2d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="412080143" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000957" asserts="1">
+            <output><![CDATA[isPositive(1.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1163" name="isPositive(-1.0d)" fullname="AutoTest.isPositive_test.isPositive(-1.0d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="689841280" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000621" asserts="1">
+            <output><![CDATA[isPositive(-1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1164" name="isPositive(-1.2d)" fullname="AutoTest.isPositive_test.isPositive(-1.2d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="472974752" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000912" asserts="1">
+            <output><![CDATA[isPositive(-1.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1165" name="isPositive(0.0d)" fullname="AutoTest.isPositive_test.isPositive(0.0d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="2083439404" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001032" asserts="1">
+            <output><![CDATA[isPositive(0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1166" name="isPositive(0.2d)" fullname="AutoTest.isPositive_test.isPositive(0.2d)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="902550341" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001329" asserts="1">
+            <output><![CDATA[isPositive(0.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1167" name="isPositive(&quot;1    &quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;1    &quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="547591530" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000632" asserts="1">
+            <output><![CDATA[isPositive("1    ")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1168" name="isPositive(&quot;     -1&quot;)" fullname="AutoTest.isPositive_test.isPositive(&quot;     -1&quot;)" methodname="isPositive" classname="AutoTest.isPositive_test" runstate="Runnable" seed="1028163400" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001939" asserts="1">
+            <output><![CDATA[isPositive("     -1")
+Status = Passed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1020" name="Cos_test" fullname="AutoTest.Cos_test" classname="AutoTest.Cos_test" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.400390" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <test-suite type="ParameterizedMethod" id="0-1031" name="Cos" fullname="AutoTest.Cos_test.Cos" classname="AutoTest.Cos_test" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.078607" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <test-case id="0-1021" name="Cos(3.1d)" fullname="AutoTest.Cos_test.Cos(3.1d)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1307424693" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.058131" asserts="1">
+            <output><![CDATA[Cos(3.1d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1022" name="Cos(4.0d)" fullname="AutoTest.Cos_test.Cos(4.0d)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1878834720" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000843" asserts="1">
+            <output><![CDATA[Cos(4.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1023" name="Cos(0.0d)" fullname="AutoTest.Cos_test.Cos(0.0d)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="728731771" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000756" asserts="1">
+            <output><![CDATA[Cos(0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1024" name="Cos(-2.0d)" fullname="AutoTest.Cos_test.Cos(-2.0d)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="83562721" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000567" asserts="1">
+            <output><![CDATA[Cos(-2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1025" name="Cos(2)" fullname="AutoTest.Cos_test.Cos(2)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="66394503" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000506" asserts="1">
+            <output><![CDATA[Cos(2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1026" name="Cos(-2)" fullname="AutoTest.Cos_test.Cos(-2)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1635439052" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000584" asserts="1">
+            <output><![CDATA[Cos(-2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1027" name="Cos(&quot;2&quot;)" fullname="AutoTest.Cos_test.Cos(&quot;2&quot;)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1656315690" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002219" asserts="1">
+            <output><![CDATA[Cos("2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1028" name="Cos(&quot;2.2&quot;)" fullname="AutoTest.Cos_test.Cos(&quot;2.2&quot;)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1475429573" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001770" asserts="1">
+            <output><![CDATA[Cos("2.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1029" name="Cos(&quot;-2.2&quot;)" fullname="AutoTest.Cos_test.Cos(&quot;-2.2&quot;)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1223610983" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000377" asserts="1">
+            <output><![CDATA[Cos("-2.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1030" name="Cos(3.14159265358979d)" fullname="AutoTest.Cos_test.Cos(3.14159265358979d)" methodname="Cos" classname="AutoTest.Cos_test" runstate="Runnable" seed="1060646821" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001181" asserts="1">
+            <output><![CDATA[Cos(3.14159265358979d)
+Status = Passed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1066" name="LoggingTests" fullname="AutoTest.LoggingTests" classname="AutoTest.LoggingTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000006" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1032" name="Divide_test" fullname="AutoTest.Divide_test" classname="AutoTest.Divide_test" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.418406" total="13" passed="10" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1046" name="Divide" fullname="AutoTest.Divide_test.Divide" classname="AutoTest.Divide_test" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.100428" total="13" passed="10" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1033" name="Divide(2.0d,3.1d)" fullname="AutoTest.Divide_test.Divide(2.0d,3.1d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1070238366" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.059006" asserts="1">
+            <output><![CDATA[Divide(2.0d,3.1d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1034" name="Divide(3.1d,2.0d)" fullname="AutoTest.Divide_test.Divide(3.1d,2.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1045810352" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000950" asserts="1">
+            <output><![CDATA[Divide(3.1d,2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1035" name="Divide(4.0d,2.0d)" fullname="AutoTest.Divide_test.Divide(4.0d,2.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="250924861" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000436" asserts="1">
+            <output><![CDATA[Divide(4.0d,2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1036" name="Divide(0.0d,0.0d)" fullname="AutoTest.Divide_test.Divide(0.0d,0.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="168503349" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000863" asserts="1">
+            <output><![CDATA[Divide(0.0d,0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1037" name="Divide(-2.0d,3.0d)" fullname="AutoTest.Divide_test.Divide(-2.0d,3.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="36597181" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001539" asserts="1">
+            <output><![CDATA[Divide(-2.0d,3.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1038" name="Divide(2.0d,-3.0d)" fullname="AutoTest.Divide_test.Divide(2.0d,-3.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1357025631" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001204" asserts="1">
+            <output><![CDATA[Divide(2.0d,-3.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1039" name="Divide(2.2d,-3)" fullname="AutoTest.Divide_test.Divide(2.2d,-3)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="2052540400" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000403" asserts="1">
+            <output><![CDATA[Divide(2.2d,-3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1040" name="Divide(3.1d,0.0d)" fullname="AutoTest.Divide_test.Divide(3.1d,0.0d)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1691394047" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000412" asserts="1">
+            <output><![CDATA[Divide(3.1d,0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1041" name="Divide(2,3)" fullname="AutoTest.Divide_test.Divide(2,3)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1576331024" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001664" asserts="1">
+            <output><![CDATA[Divide(2,3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1042" name="Divide(2,-3)" fullname="AutoTest.Divide_test.Divide(2,-3)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="665876547" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002390" asserts="1">
+            <output><![CDATA[Divide(2,-3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1043" name="Divide(&quot;2&quot;,&quot;3&quot;)" fullname="AutoTest.Divide_test.Divide(&quot;2&quot;,&quot;3&quot;)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="907237522" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.013880" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Divide("2","3")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+          <test-case id="0-1044" name="Divide(&quot;2.2&quot;,&quot;3.0&quot;)" fullname="AutoTest.Divide_test.Divide(&quot;2.2&quot;,&quot;3.0&quot;)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1825647909" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003001" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Divide("2.2","3.0")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+          <test-case id="0-1045" name="Divide(&quot;-2.2&quot;,&quot;3.0&quot;)" fullname="AutoTest.Divide_test.Divide(&quot;-2.2&quot;,&quot;3.0&quot;)" methodname="Divide" classname="AutoTest.Divide_test" runstate="Runnable" seed="1469065983" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001148" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Divide("-2.2","3.0")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1067" name="Multiply_test" fullname="AutoTest.Multiply_test" classname="AutoTest.Multiply_test" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.021480" total="12" passed="9" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1080" name="Multiply" fullname="AutoTest.Multiply_test.Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.019294" total="12" passed="9" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1068" name="Multiply(2.0d,3.1d)" fullname="AutoTest.Multiply_test.Multiply(2.0d,3.1d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="1416270548" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000481" asserts="1">
+            <output><![CDATA[Multiply(2.0d,3.1d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1069" name="Multiply(3.1d,2.0d)" fullname="AutoTest.Multiply_test.Multiply(3.1d,2.0d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="1143440756" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000565" asserts="1">
+            <output><![CDATA[Multiply(3.1d,2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1070" name="Multiply(3.0d,4.0d)" fullname="AutoTest.Multiply_test.Multiply(3.0d,4.0d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="817265518" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000490" asserts="1">
+            <output><![CDATA[Multiply(3.0d,4.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1071" name="Multiply(0.0d,0.0d)" fullname="AutoTest.Multiply_test.Multiply(0.0d,0.0d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="900284646" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000631" asserts="1">
+            <output><![CDATA[Multiply(0.0d,0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1072" name="Multiply(-2.0d,3.0d)" fullname="AutoTest.Multiply_test.Multiply(-2.0d,3.0d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="793142754" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000635" asserts="1">
+            <output><![CDATA[Multiply(-2.0d,3.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1073" name="Multiply(2.0d,-3.0d)" fullname="AutoTest.Multiply_test.Multiply(2.0d,-3.0d)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="134373256" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001292" asserts="1">
+            <output><![CDATA[Multiply(2.0d,-3.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1074" name="Multiply(2.2d,-3)" fullname="AutoTest.Multiply_test.Multiply(2.2d,-3)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="1053231624" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000623" asserts="1">
+            <output><![CDATA[Multiply(2.2d,-3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1075" name="Multiply(2,3)" fullname="AutoTest.Multiply_test.Multiply(2,3)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="1141535400" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000469" asserts="1">
+            <output><![CDATA[Multiply(2,3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1076" name="Multiply(2,-3)" fullname="AutoTest.Multiply_test.Multiply(2,-3)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="25154264" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.005734" asserts="1">
+            <output><![CDATA[Multiply(2,-3)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1077" name="Multiply(&quot;2&quot;,&quot;3&quot;)" fullname="AutoTest.Multiply_test.Multiply(&quot;2&quot;,&quot;3&quot;)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="2145356294" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001221" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Multiply("2","3")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+          <test-case id="0-1078" name="Multiply(&quot;2.2&quot;,&quot;3.0&quot;)" fullname="AutoTest.Multiply_test.Multiply(&quot;2.2&quot;,&quot;3.0&quot;)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="508777135" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000874" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Multiply("2.2","3.0")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+          <test-case id="0-1079" name="Multiply(&quot;-2.2&quot;,&quot;3.0&quot;)" fullname="AutoTest.Multiply_test.Multiply(&quot;-2.2&quot;,&quot;3.0&quot;)" methodname="Multiply" classname="AutoTest.Multiply_test" runstate="Runnable" seed="1672401003" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000390" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Reflect.cs:line 207]]></stack-trace>
+            </failure>
+            <output><![CDATA[Multiply("-2.2","3.0")
+Status = Failed
+Error: System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1094" name="Sin_test" fullname="AutoTest.Sin_test" classname="AutoTest.Sin_test" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.020723" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <test-suite type="ParameterizedMethod" id="0-1105" name="Sin" fullname="AutoTest.Sin_test.Sin" classname="AutoTest.Sin_test" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.018486" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <test-case id="0-1095" name="Sin(3.1d)" fullname="AutoTest.Sin_test.Sin(3.1d)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1311252615" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001116" asserts="1">
+            <output><![CDATA[Sin(3.1d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1096" name="Sin(4.0d)" fullname="AutoTest.Sin_test.Sin(4.0d)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1869242751" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001023" asserts="1">
+            <output><![CDATA[Sin(4.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1097" name="Sin(0.0d)" fullname="AutoTest.Sin_test.Sin(0.0d)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1777542590" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001509" asserts="1">
+            <output><![CDATA[Sin(0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1098" name="Sin(-2.0d)" fullname="AutoTest.Sin_test.Sin(-2.0d)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1714888422" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002639" asserts="1">
+            <output><![CDATA[Sin(-2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1099" name="Sin(2)" fullname="AutoTest.Sin_test.Sin(2)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1555259761" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001366" asserts="1">
+            <output><![CDATA[Sin(2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1100" name="Sin(-2)" fullname="AutoTest.Sin_test.Sin(-2)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1348693622" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000457" asserts="1">
+            <output><![CDATA[Sin(-2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1101" name="Sin(&quot;2&quot;)" fullname="AutoTest.Sin_test.Sin(&quot;2&quot;)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="877805063" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000461" asserts="1">
+            <output><![CDATA[Sin("2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1102" name="Sin(&quot;2.2&quot;)" fullname="AutoTest.Sin_test.Sin(&quot;2.2&quot;)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1963681317" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000761" asserts="1">
+            <output><![CDATA[Sin("2.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1103" name="Sin(&quot;-2.2&quot;)" fullname="AutoTest.Sin_test.Sin(&quot;-2.2&quot;)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="2095218253" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000608" asserts="1">
+            <output><![CDATA[Sin("-2.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1104" name="Sin(1.5707963267949d)" fullname="AutoTest.Sin_test.Sin(1.5707963267949d)" methodname="Sin" classname="AutoTest.Sin_test" runstate="Runnable" seed="1040448281" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000703" asserts="1">
+            <output><![CDATA[Sin(1.5707963267949d)
+Status = Passed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1081" name="Pow_test" fullname="AutoTest.Pow_test" classname="AutoTest.Pow_test" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.046433" total="11" passed="0" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1093" name="Pow" fullname="AutoTest.Pow_test.Pow" classname="AutoTest.Pow_test" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.042477" total="11" passed="0" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1082" name="Pow(3.1d,2.0d)" fullname="AutoTest.Pow_test.Pow(3.1d,2.0d)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="165724521" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.006693" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(3.1d,2.0d)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1083" name="Pow(4.0d,0.0d)" fullname="AutoTest.Pow_test.Pow(4.0d,0.0d)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="1716407958" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001805" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(4.0d,0.0d)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1084" name="Pow(0.0d,1.0d)" fullname="AutoTest.Pow_test.Pow(0.0d,1.0d)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="697373461" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001832" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(0.0d,1.0d)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1085" name="Pow(-2.0d,2.0d)" fullname="AutoTest.Pow_test.Pow(-2.0d,2.0d)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="1201698825" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001918" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(-2.0d,2.0d)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1086" name="Pow(-2.0d,3.0d)" fullname="AutoTest.Pow_test.Pow(-2.0d,3.0d)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="747290950" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001960" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(-2.0d,3.0d)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1087" name="Pow(2,3)" fullname="AutoTest.Pow_test.Pow(2,3)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="97472921" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001973" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(2,3)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1088" name="Pow(-2,0)" fullname="AutoTest.Pow_test.Pow(-2,0)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="785064521" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.005292" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(-2,0)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1089" name="Pow(&quot;2&quot;,&quot;2&quot;)" fullname="AutoTest.Pow_test.Pow(&quot;2&quot;,&quot;2&quot;)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="803448866" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001464" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow("2","2")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1090" name="Pow(&quot;2.2&quot;,&quot;2.0&quot;)" fullname="AutoTest.Pow_test.Pow(&quot;2.2&quot;,&quot;2.0&quot;)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="642788033" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.004542" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow("2.2","2.0")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1091" name="Pow(&quot;-2.2&quot;,&quot;-2&quot;)" fullname="AutoTest.Pow_test.Pow(&quot;-2.2&quot;,&quot;-2&quot;)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="939735244" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001472" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow("-2.2","-2")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1092" name="Pow(0,0)" fullname="AutoTest.Pow_test.Pow(0,0)" methodname="Pow" classname="AutoTest.Pow_test" runstate="Runnable" seed="1450148642" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003373" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at AutoTest.Pow_test.Pow(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Pow_test.cs:line 21]]></stack-trace>
+            </failure>
+            <output><![CDATA[Pow(0,0)
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1106" name="Sqrt_test" fullname="AutoTest.Sqrt_test" classname="AutoTest.Sqrt_test" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.031926" total="10" passed="6" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="8">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1117" name="Sqrt" fullname="AutoTest.Sqrt_test.Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.028980" total="10" passed="6" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1107" name="Sqrt(3.1d)" fullname="AutoTest.Sqrt_test.Sqrt(3.1d)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="992042774" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.012841" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 1.7606816861659009d
+  But was:  1.7320508075688772d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 19
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sqrt(3.1d)
+Status = Failed
+Error:   Expected: 1.7606816861659009d
+  But was:  1.7320508075688772d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 1.7606816861659009d
+  But was:  1.7320508075688772d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 19
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1108" name="Sqrt(4.0d)" fullname="AutoTest.Sqrt_test.Sqrt(4.0d)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1829363387" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000980" asserts="1">
+            <output><![CDATA[Sqrt(4.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1109" name="Sqrt(0.0d)" fullname="AutoTest.Sqrt_test.Sqrt(0.0d)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="504791111" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000407" asserts="1">
+            <output><![CDATA[Sqrt(0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1110" name="Sqrt(-2.0d)" fullname="AutoTest.Sqrt_test.Sqrt(-2.0d)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="633661723" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001458" asserts="1">
+            <output><![CDATA[Sqrt(-2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1111" name="Sqrt(2)" fullname="AutoTest.Sqrt_test.Sqrt(2)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1620893169" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000113" asserts="1">
+            <output><![CDATA[Sqrt(2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1112" name="Sqrt(-2)" fullname="AutoTest.Sqrt_test.Sqrt(-2)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1057415187" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000129" asserts="1">
+            <output><![CDATA[Sqrt(-2)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1113" name="Sqrt(&quot;2&quot;)" fullname="AutoTest.Sqrt_test.Sqrt(&quot;2&quot;)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1979270224" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000533" asserts="1">
+            <output><![CDATA[Sqrt("2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1114" name="Sqrt(&quot;2.2&quot;)" fullname="AutoTest.Sqrt_test.Sqrt(&quot;2.2&quot;)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1523021406" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003230" asserts="0">
+            <failure>
+              <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+              <stack-trace><![CDATA[   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 18]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sqrt("2.2")
+Status = Failed
+Error: System.FormatException : Input string was not in a correct format.
+]]></output>
+          </test-case>
+          <test-case id="0-1115" name="Sqrt(&quot;-2.2&quot;)" fullname="AutoTest.Sqrt_test.Sqrt(&quot;-2.2&quot;)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="1858745902" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001149" asserts="0">
+            <failure>
+              <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+              <stack-trace><![CDATA[   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 18]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sqrt("-2.2")
+Status = Failed
+Error: System.FormatException : Input string was not in a correct format.
+]]></output>
+          </test-case>
+          <test-case id="0-1116" name="Sqrt(3.14159265358979d)" fullname="AutoTest.Sqrt_test.Sqrt(3.14159265358979d)" methodname="Sqrt" classname="AutoTest.Sqrt_test" runstate="Runnable" seed="936654897" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002560" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 1.7724538509055159d
+  But was:  1.7320508075688772d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 19
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sqrt(3.14159265358979d)
+Status = Failed
+Error:   Expected: 1.7724538509055159d
+  But was:  1.7320508075688772d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 1.7724538509055159d
+  But was:  1.7320508075688772d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sqrt_test.Sqrt(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Sqrt_test.cs:line 19
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1047" name="isNegative_test" fullname="AutoTest.isNegative_test" classname="AutoTest.isNegative_test" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.143706" total="17" passed="14" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="17">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1065" name="isNegative" fullname="AutoTest.isNegative_test.isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.135339" total="17" passed="14" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="17">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1048" name="isNegative(&quot;1&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;1&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="2101945634" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.040487" asserts="1">
+            <output><![CDATA[isNegative("1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1049" name="isNegative(&quot;-1&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;-1&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="415875380" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.001339" asserts="1">
+            <output><![CDATA[isNegative("-1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1050" name="isNegative(&quot;1.2&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;1.2&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="1359004677" result="Passed" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:49Z" duration="0.000434" asserts="1">
+            <output><![CDATA[isNegative("1.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1051" name="isNegative(&quot;1.0&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;1.0&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="695944088" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001140" asserts="1">
+            <output><![CDATA[isNegative("1.0")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1052" name="isNegative(&quot;-1.2&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;-1.2&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="439090878" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000457" asserts="1">
+            <output><![CDATA[isNegative("-1.2")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1053" name="isNegative(&quot;0.0&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;0.0&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="390093789" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.060625" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[isNegative("0.0")
+Status = Failed
+Error:   Expected: True
+  But was:  False
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1054" name="isNegative(1)" fullname="AutoTest.isNegative_test.isNegative(1)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="948009270" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000672" asserts="1">
+            <output><![CDATA[isNegative(1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1055" name="isNegative(-1)" fullname="AutoTest.isNegative_test.isNegative(-1)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="334281361" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001521" asserts="1">
+            <output><![CDATA[isNegative(-1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1056" name="isNegative(0)" fullname="AutoTest.isNegative_test.isNegative(0)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="2091255002" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001167" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[isNegative(0)
+Status = Failed
+Error:   Expected: True
+  But was:  False
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1057" name="isNegative(1.0d)" fullname="AutoTest.isNegative_test.isNegative(1.0d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="1886585688" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000076" asserts="1">
+            <output><![CDATA[isNegative(1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1058" name="isNegative(1.2d)" fullname="AutoTest.isNegative_test.isNegative(1.2d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="1945621780" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000155" asserts="1">
+            <output><![CDATA[isNegative(1.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1059" name="isNegative(-1.0d)" fullname="AutoTest.isNegative_test.isNegative(-1.0d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="34095633" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001103" asserts="1">
+            <output><![CDATA[isNegative(-1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1060" name="isNegative(-1.2d)" fullname="AutoTest.isNegative_test.isNegative(-1.2d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="1095322560" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000524" asserts="1">
+            <output><![CDATA[isNegative(-1.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1061" name="isNegative(0.0d)" fullname="AutoTest.isNegative_test.isNegative(0.0d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="893195044" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003418" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[isNegative(0.0d)
+Status = Failed
+Error:   Expected: True
+  But was:  False
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.isNegative_test.isNegative(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\isNegative_test.cs:line 23
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1062" name="isNegative(0.2d)" fullname="AutoTest.isNegative_test.isNegative(0.2d)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="736910438" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001042" asserts="1">
+            <output><![CDATA[isNegative(0.2d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1063" name="isNegative(&quot;1    &quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;1    &quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="1563472742" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001133" asserts="1">
+            <output><![CDATA[isNegative("1    ")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1064" name="isNegative(&quot;     -1&quot;)" fullname="AutoTest.isNegative_test.isNegative(&quot;     -1&quot;)" methodname="isNegative" classname="AutoTest.isNegative_test" runstate="Runnable" seed="574368326" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000449" asserts="1">
+            <output><![CDATA[isNegative("     -1")
+Status = Passed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1000" name="Abs_test" fullname="AutoTest.Abs_test" classname="AutoTest.Abs_test" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.468198" total="18" passed="11" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="14">
+        <properties>
+          <property name="ParallelScope" value="All" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1019" name="Abs" fullname="AutoTest.Abs_test.Abs" classname="AutoTest.Abs_test" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.155049" total="18" passed="11" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="14">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="Abs(&quot;1&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;1&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="1894603541" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002033" asserts="1">
+            <output><![CDATA[Abs("1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1002" name="Abs(&quot;1&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;1&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="820317950" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003032" asserts="1">
+            <output><![CDATA[Abs("1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1003" name="Abs(&quot;-1&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;-1&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="1640893529" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003062" asserts="1">
+            <output><![CDATA[Abs("-1")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1004" name="Abs(&quot;1.2&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;1.2&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="497394207" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002569" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 32]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs("1.2")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1006" name="Abs(&quot;-1.2&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;-1.2&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="975195901" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001743" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 32]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs("-1.2")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1007" name="Abs(&quot;0.0&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;0.0&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="2016959178" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001471" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 32]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs("0.0")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1008" name="Abs(1)" fullname="AutoTest.Abs_test.Abs(1)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="311766577" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000685" asserts="1">
+            <output><![CDATA[Abs(1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1005" name="Abs(&quot;1.0&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;1.0&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="1096531355" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002997" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 32]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs("1.0")
+Status = Failed
+Error: System.NotFiniteNumberException : Wrong input
+]]></output>
+          </test-case>
+          <test-case id="0-1009" name="Abs(-1)" fullname="AutoTest.Abs_test.Abs(-1)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="883227285" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000900" asserts="1">
+            <output><![CDATA[Abs(-1)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1010" name="Abs(0)" fullname="AutoTest.Abs_test.Abs(0)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="322506247" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000883" asserts="1">
+            <output><![CDATA[Abs(0)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1011" name="Abs(1.0d)" fullname="AutoTest.Abs_test.Abs(1.0d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="1697102424" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001158" asserts="1">
+            <output><![CDATA[Abs(1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1013" name="Abs(-1.0d)" fullname="AutoTest.Abs_test.Abs(-1.0d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="225387775" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001034" asserts="1">
+            <output><![CDATA[Abs(-1.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1012" name="Abs(1.2d)" fullname="AutoTest.Abs_test.Abs(1.2d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="865021222" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001690" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 1.2d
+  But was:  1.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs(1.2d)
+Status = Failed
+Error:   Expected: 1.2d
+  But was:  1.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 1.2d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1015" name="Abs(0.0d)" fullname="AutoTest.Abs_test.Abs(0.0d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="491088679" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000857" asserts="1">
+            <output><![CDATA[Abs(0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1017" name="Abs(&quot;1    &quot;)" fullname="AutoTest.Abs_test.Abs(&quot;1    &quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="836892723" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000947" asserts="1">
+            <output><![CDATA[Abs("1    ")
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1014" name="Abs(-1.2d)" fullname="AutoTest.Abs_test.Abs(-1.2d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="214756370" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.004517" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 1.2d
+  But was:  1.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs(-1.2d)
+Status = Failed
+Error:   Expected: 1.2d
+  But was:  1.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 1.2d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1016" name="Abs(0.2d)" fullname="AutoTest.Abs_test.Abs(0.2d)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="787606321" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.004097" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.20000000000000001d
+  But was:  0.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Abs(0.2d)
+Status = Failed
+Error:   Expected: 0.20000000000000001d
+  But was:  0.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.20000000000000001d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Abs_test.Abs(Object input) in D:\Tsypliak\HomeTask1-master\AutoTest\Abs_test.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1018" name="Abs(&quot;     -1&quot;)" fullname="AutoTest.Abs_test.Abs(&quot;     -1&quot;)" methodname="Abs" classname="AutoTest.Abs_test" runstate="Runnable" seed="661031038" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000644" asserts="1">
+            <output><![CDATA[Abs("     -1")
+Status = Passed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1135" name="Add_test" fullname="AutoTest.Add_test" classname="AutoTest.Add_test" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.479978" total="14" passed="5" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <properties>
+          <property name="ParallelScope" value="All" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1150" name="Add" fullname="AutoTest.Add_test.Add" classname="AutoTest.Add_test" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2018-07-20 17:43:49Z" end-time="2018-07-20 17:43:50Z" duration="0.162632" total="14" passed="5" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1137" name="Add(1.2d,2.0d)" fullname="AutoTest.Add_test.Add(1.2d,2.0d)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="1356314248" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000873" asserts="1">
+            <output><![CDATA[Add(1.2d,2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1136" name="Add(1.0d,2.0d)" fullname="AutoTest.Add_test.Add(1.0d,2.0d)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="1560969321" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001768" asserts="1">
+            <output><![CDATA[Add(1.0d,2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1139" name="Add(1.2d,-2.0d)" fullname="AutoTest.Add_test.Add(1.2d,-2.0d)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="442873180" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.000614" asserts="1">
+            <output><![CDATA[Add(1.2d,-2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1138" name="Add(1.0d,-2.0d)" fullname="AutoTest.Add_test.Add(1.0d,-2.0d)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="26958957" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002423" asserts="1">
+            <output><![CDATA[Add(1.0d,-2.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1140" name="Add(1.0d,0.0d)" fullname="AutoTest.Add_test.Add(1.0d,0.0d)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="1613064915" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001260" asserts="1">
+            <output><![CDATA[Add(1.0d,0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1141" name="Add(&quot;1.0&quot;,&quot;2.0&quot;)" fullname="AutoTest.Add_test.Add(&quot;1.0&quot;,&quot;2.0&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="441635745" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001393" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1.0","2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1142" name="Add(&quot;1.2&quot;,&quot;2.0&quot;)" fullname="AutoTest.Add_test.Add(&quot;1.2&quot;,&quot;2.0&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="1259507948" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001474" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1.2","2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1143" name="Add(&quot;1.0&quot;,&quot;-2.0&quot;)" fullname="AutoTest.Add_test.Add(&quot;1.0&quot;,&quot;-2.0&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="918803895" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001505" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1.0","-2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1145" name="Add(&quot;1.0&quot;,&quot;0.0&quot;)" fullname="AutoTest.Add_test.Add(&quot;1.0&quot;,&quot;0.0&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="104765458" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001331" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1.0","0.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1144" name="Add(&quot;1.2&quot;,&quot;-2.0&quot;)" fullname="AutoTest.Add_test.Add(&quot;1.2&quot;,&quot;-2.0&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="385847750" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003059" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1.2","-2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1146" name="Add(1,2)" fullname="AutoTest.Add_test.Add(1,2)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="2016184217" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001773" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add(1,2)
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1147" name="Add(1,-2)" fullname="AutoTest.Add_test.Add(1,-2)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="275522638" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002203" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add(1,-2)
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1149" name="Add(&quot;1&quot;,&quot;-2&quot;)" fullname="AutoTest.Add_test.Add(&quot;1&quot;,&quot;-2&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="299012538" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001640" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1","-2")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1148" name="Add(&quot;1&quot;,&quot;2&quot;)" fullname="AutoTest.Add_test.Add(&quot;1&quot;,&quot;2&quot;)" methodname="Add" classname="AutoTest.Add_test" runstate="Runnable" seed="1249015546" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002635" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Add_test.Add(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Add_test.cs:line 19]]></stack-trace>
+            </failure>
+            <output><![CDATA[Add("1","2")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1118" name="Sub_test" fullname="AutoTest.Sub_test" classname="AutoTest.Sub_test" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.044669" total="15" passed="1" failed="14" warnings="0" inconclusive="0" skipped="0" asserts="6">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1134" name="Sub" fullname="AutoTest.Sub_test.Sub" classname="AutoTest.Sub_test" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.040604" total="15" passed="1" failed="14" warnings="0" inconclusive="0" skipped="0" asserts="6">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1119" name="Sub(2.0d,1.0d)" fullname="AutoTest.Sub_test.Sub(2.0d,1.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1062696545" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002681" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 1.0d
+  But was:  3.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(2.0d,1.0d)
+Status = Failed
+Error:   Expected: 1.0d
+  But was:  3.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 1.0d
+  But was:  3.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1120" name="Sub(1.0d,2.0d)" fullname="AutoTest.Sub_test.Sub(1.0d,2.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="16885183" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002626" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -1.0d
+  But was:  3.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1.0d,2.0d)
+Status = Failed
+Error:   Expected: -1.0d
+  But was:  3.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -1.0d
+  But was:  3.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1121" name="Sub(1.2d,2.0d)" fullname="AutoTest.Sub_test.Sub(1.2d,2.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1033761750" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002229" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -0.80000000000000004d
+  But was:  3.2000000000000002d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1.2d,2.0d)
+Status = Failed
+Error:   Expected: -0.80000000000000004d
+  But was:  3.2000000000000002d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -0.80000000000000004d
+  But was:  3.2000000000000002d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1122" name="Sub(1.0d,-2.0d)" fullname="AutoTest.Sub_test.Sub(1.0d,-2.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="337785888" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003407" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 3.0d
+  But was:  -1.0d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1.0d,-2.0d)
+Status = Failed
+Error:   Expected: 3.0d
+  But was:  -1.0d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 3.0d
+  But was:  -1.0d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1123" name="Sub(1.2d,-2.0d)" fullname="AutoTest.Sub_test.Sub(1.2d,-2.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="858152844" result="Failed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.002247" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 3.2000000000000002d
+  But was:  -0.80000000000000004d
+]]></message>
+              <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1.2d,-2.0d)
+Status = Failed
+Error:   Expected: 3.2000000000000002d
+  But was:  -0.80000000000000004d
+
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 3.2000000000000002d
+  But was:  -0.80000000000000004d
+]]></message>
+                <stack-trace><![CDATA[   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 21
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1124" name="Sub(1.0d,0.0d)" fullname="AutoTest.Sub_test.Sub(1.0d,0.0d)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1416518562" result="Passed" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001730" asserts="1">
+            <output><![CDATA[Sub(1.0d,0.0d)
+Status = Passed
+]]></output>
+          </test-case>
+          <test-case id="0-1125" name="Sub(&quot;1.0&quot;,&quot;2.0&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1.0&quot;,&quot;2.0&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1886849236" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001612" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1.0","2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1126" name="Sub(&quot;1.2&quot;,&quot;2.0&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1.2&quot;,&quot;2.0&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="2030720242" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.003286" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1.2","2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1127" name="Sub(&quot;1.0&quot;,&quot;-2.0&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1.0&quot;,&quot;-2.0&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="907393475" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001470" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1.0","-2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1128" name="Sub(&quot;1.2&quot;,&quot;-2.0&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1.2&quot;,&quot;-2.0&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1659116911" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.007152" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1.2","-2.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1129" name="Sub(&quot;1.0&quot;,&quot;0.0&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1.0&quot;,&quot;0.0&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1986025963" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001575" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1.0","0.0")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1130" name="Sub(1,2)" fullname="AutoTest.Sub_test.Sub(1,2)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="655256588" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001736" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1,2)
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1131" name="Sub(1,-2)" fullname="AutoTest.Sub_test.Sub(1,-2)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="414199276" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001519" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub(1,-2)
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1132" name="Sub(&quot;1&quot;,&quot;2&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1&quot;,&quot;2&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="1669949752" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001416" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1","2")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+          <test-case id="0-1133" name="Sub(&quot;1&quot;,&quot;-2&quot;)" fullname="AutoTest.Sub_test.Sub(&quot;1&quot;,&quot;-2&quot;)" methodname="Sub" classname="AutoTest.Sub_test" runstate="Runnable" seed="2062257676" result="Failed" label="Error" start-time="2018-07-20 17:43:50Z" end-time="2018-07-20 17:43:50Z" duration="0.001228" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at AutoTest.Sub_test.Sub(Object input_1, Object input_2) in D:\Tsypliak\HomeTask1-master\AutoTest\Sub_test.cs:line 20]]></stack-trace>
+            </failure>
+            <output><![CDATA[Sub("1","-2")
+Status = Failed
+Error: System.InvalidCastException : Specified cast is not valid.
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

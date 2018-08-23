@@ -1,0 +1,355 @@
+﻿2018-07-20 20:35:24,937 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(3.1d)
+2018-07-20 20:35:24,937 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("1")
+2018-07-20 20:35:24,937 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(2.0d,3.1d)
+2018-07-20 20:35:24,937 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("1")
+2018-07-20 20:35:24,967 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,968 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,975 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("-1")
+2018-07-20 20:35:24,975 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("-1")
+2018-07-20 20:35:24,976 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,976 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,978 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("1.2")
+2018-07-20 20:35:24,978 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,978 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("1.2")
+2018-07-20 20:35:24,979 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,979 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("1.0")
+2018-07-20 20:35:24,980 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,980 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("1.0")
+2018-07-20 20:35:24,980 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,981 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("-1.2")
+2018-07-20 20:35:24,981 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,981 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,981 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,982 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("0.0")
+2018-07-20 20:35:24,982 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(3.1d,2.0d)
+2018-07-20 20:35:24,982 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,982 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("-1.2")
+2018-07-20 20:35:24,983 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,983 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(4.0d)
+2018-07-20 20:35:24,983 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,983 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(4.0d,2.0d)
+2018-07-20 20:35:24,984 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,984 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("0.0")
+2018-07-20 20:35:24,984 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,984 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(0.0d)
+2018-07-20 20:35:24,984 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,985 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(0.0d,0.0d)
+2018-07-20 20:35:24,985 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,985 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(1)
+2018-07-20 20:35:24,985 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,986 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(-2.0d)
+2018-07-20 20:35:24,986 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,986 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(-2.0d,3.0d)
+2018-07-20 20:35:24,986 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,986 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(-1)
+2018-07-20 20:35:24,987 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,986 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(2)
+2018-07-20 20:35:24,987 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,987 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(2.0d,-3.0d)
+2018-07-20 20:35:24,988 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,988 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(-2)
+2018-07-20 20:35:24,988 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,989 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(2.2d,-3)
+2018-07-20 20:35:24,989 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,988 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(0)
+2018-07-20 20:35:24,989 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,989 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos("2")
+2018-07-20 20:35:24,994 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,994 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(3.1d,0.0d)
+2018-07-20 20:35:24,995 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,995 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos("2.2")
+2018-07-20 20:35:24,996 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,995 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(1.0d)
+2018-07-20 20:35:24,996 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,996 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(2,3)
+2018-07-20 20:35:24,996 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,997 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos("-2.2")
+2018-07-20 20:35:24,997 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,997 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(1.2d)
+2018-07-20 20:35:24,997 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,998 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide(2,-3)
+2018-07-20 20:35:24,998 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Cos(3.14159265358979d)
+2018-07-20 20:35:24,998 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,998 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(-1.0d)
+2018-07-20 20:35:24,998 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:24,998 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,003 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide("2","3")
+2018-07-20 20:35:25,004 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(-1.2d)
+2018-07-20 20:35:25,004 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,010 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(0.0d)
+2018-07-20 20:35:25,011 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,011 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,012 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+2018-07-20 20:35:25,012 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive(0.2d)
+2018-07-20 20:35:25,012 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,014 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("1    ")
+2018-07-20 20:35:25,014 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Divide("-2.2","3.0")
+2018-07-20 20:35:25,014 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,015 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,015 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+2018-07-20 20:35:25,016 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(2.0d,3.1d)
+2018-07-20 20:35:25,016 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - isPositive("     -1")
+2018-07-20 20:35:25,017 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,017 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,021 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(3.0d,4.0d)
+2018-07-20 20:35:25,021 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,037 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(3.1d)
+2018-07-20 20:35:25,037 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(3.1d,2.0d)
+2018-07-20 20:35:25,038 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,038 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(0.0d,0.0d)
+2018-07-20 20:35:25,039 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,039 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(4.0d)
+2018-07-20 20:35:25,039 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,040 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,040 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,040 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(0.0d)
+2018-07-20 20:35:25,040 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,040 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(-2.0d,3.0d)
+2018-07-20 20:35:25,040 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(4.0d,0.0d)
+2018-07-20 20:35:25,040 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,041 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,041 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(-2.0d)
+2018-07-20 20:35:25,041 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,041 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,042 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,043 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(2)
+2018-07-20 20:35:25,043 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,041 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest -   Expected: True
+  But was:  False
+
+2018-07-20 20:35:25,044 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(0.0d,1.0d)
+2018-07-20 20:35:25,044 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(-2)
+2018-07-20 20:35:25,044 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,045 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(1)
+2018-07-20 20:35:25,045 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,045 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,045 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,042 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(2.0d,-3.0d)
+2018-07-20 20:35:25,045 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(-1)
+2018-07-20 20:35:25,046 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,045 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin("2")
+2018-07-20 20:35:25,046 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,045 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,046 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(-2.0d,2.0d)
+2018-07-20 20:35:25,046 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin("2.2")
+2018-07-20 20:35:25,047 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,047 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(2.2d,-3)
+2018-07-20 20:35:25,046 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(0)
+2018-07-20 20:35:25,047 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,047 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,048 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,048 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin("-2.2")
+2018-07-20 20:35:25,048 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,050 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest -   Expected: True
+  But was:  False
+
+2018-07-20 20:35:25,048 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(2,3)
+2018-07-20 20:35:25,050 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(-2.0d,3.0d)
+2018-07-20 20:35:25,050 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,048 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,051 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(1.0d)
+2018-07-20 20:35:25,051 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,051 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sin(1.5707963267949d)
+2018-07-20 20:35:25,052 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,051 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,052 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,051 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply(2,-3)
+2018-07-20 20:35:25,052 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(1.2d)
+2018-07-20 20:35:25,052 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,052 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,052 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(2,3)
+2018-07-20 20:35:25,053 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(-1.0d)
+2018-07-20 20:35:25,053 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,053 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply("2","3")
+2018-07-20 20:35:25,055 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,055 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest -   Expected: True
+  But was:  False
+
+2018-07-20 20:35:25,055 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,057 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,057 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Multiply("-2.2","3.0")
+2018-07-20 20:35:25,057 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative(0.2d)
+2018-07-20 20:35:25,058 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,057 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(3.1d)
+2018-07-20 20:35:25,058 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,058 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.
+2018-07-20 20:35:25,057 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow("2","2")
+2018-07-20 20:35:25,058 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("1    ")
+2018-07-20 20:35:25,059 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,059 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,059 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,061 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - isNegative("     -1")
+2018-07-20 20:35:25,061 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,061 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow("2.2","2.0")
+2018-07-20 20:35:25,064 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,064 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest -   Expected: 1.7606816861659009d
+  But was:  1.7320508075688772d
+
+2018-07-20 20:35:25,064 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,064 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("1")
+2018-07-20 20:35:25,064 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(2.0d,1.0d)
+2018-07-20 20:35:25,064 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,065 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(4.0d)
+2018-07-20 20:35:25,065 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,066 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Pow(0,0)
+2018-07-20 20:35:25,065 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,066 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,066 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest -   Expected: 1.0d
+  But was:  3.0d
+
+2018-07-20 20:35:25,066 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(0.0d)
+2018-07-20 20:35:25,066 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,067 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,067 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("1")
+2018-07-20 20:35:25,069 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,069 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1.0d,2.0d)
+2018-07-20 20:35:25,069 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs("-1")
+2018-07-20 20:35:25,069 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,069 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("1.2")
+2018-07-20 20:35:25,067 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,070 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs("1.0")
+2018-07-20 20:35:25,070 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,070 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,071 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,071 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,071 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,071 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(-2.0d)
+2018-07-20 20:35:25,071 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,070 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest -   Expected: -1.0d
+  But was:  3.0d
+
+2018-07-20 20:35:25,071 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("-1.2")
+2018-07-20 20:35:25,071 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs("0.0")
+2018-07-20 20:35:25,072 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(2)
+2018-07-20 20:35:25,072 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,072 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1.2d,2.0d)
+2018-07-20 20:35:25,072 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,073 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,073 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,075 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest - System.NotFiniteNumberException : Wrong input
+2018-07-20 20:35:25,075 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(-2)
+2018-07-20 20:35:25,075 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(1)
+2018-07-20 20:35:25,076 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,075 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,076 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest -   Expected: -0.80000000000000004d
+  But was:  3.2000000000000002d
+
+2018-07-20 20:35:25,075 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,077 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(0)
+2018-07-20 20:35:25,077 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,076 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs(-1)
+2018-07-20 20:35:25,077 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1.0d,-2.0d)
+2018-07-20 20:35:25,077 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,078 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt("2")
+2018-07-20 20:35:25,078 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,078 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(1.0d)
+2018-07-20 20:35:25,078 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,078 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs(1.2d)
+2018-07-20 20:35:25,078 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,079 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest -   Expected: 3.0d
+  But was:  -1.0d
+
+2018-07-20 20:35:25,079 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt("2.2")
+2018-07-20 20:35:25,079 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(-1.0d)
+2018-07-20 20:35:25,080 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,080 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest -   Expected: 1.2d
+  But was:  1.0d
+
+2018-07-20 20:35:25,080 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,080 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1.2d,-2.0d)
+2018-07-20 20:35:25,080 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs(-1.2d)
+2018-07-20 20:35:25,082 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(0.0d)
+2018-07-20 20:35:25,082 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,083 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,083 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,083 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest -   Expected: 1.2d
+  But was:  1.0d
+
+2018-07-20 20:35:25,080 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,083 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.FormatException : Input string was not in a correct format.
+2018-07-20 20:35:25,083 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest -   Expected: 3.2000000000000002d
+  But was:  -0.80000000000000004d
+
+2018-07-20 20:35:25,084 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("1    ")
+2018-07-20 20:35:25,084 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,084 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt("-2.2")
+2018-07-20 20:35:25,084 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1.0d,0.0d)
+2018-07-20 20:35:25,084 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,085 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Abs("     -1")
+2018-07-20 20:35:25,085 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,085 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.FormatException : Input string was not in a correct format.
+2018-07-20 20:35:25,083 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Abs(0.2d)
+2018-07-20 20:35:25,085 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1.0","2.0")
+2018-07-20 20:35:25,085 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,086 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Sqrt(3.14159265358979d)
+2018-07-20 20:35:25,086 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,086 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest -   Expected: 0.20000000000000001d
+  But was:  0.0d
+
+2018-07-20 20:35:25,088 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Add(1.0d,2.0d)
+2018-07-20 20:35:25,086 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,089 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,089 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,089 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1.2","2.0")
+2018-07-20 20:35:25,089 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Add(1.2d,2.0d)
+2018-07-20 20:35:25,089 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,088 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,090 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest -   Expected: 1.7724538509055159d
+  But was:  1.7320508075688772d
+
+2018-07-20 20:35:25,090 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,089 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Add(1.0d,-2.0d)
+2018-07-20 20:35:25,090 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,090 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Add(1.2d,-2.0d)
+2018-07-20 20:35:25,090 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,091 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Add(1.0d,0.0d)
+2018-07-20 20:35:25,091 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Add("1.0","2.0")
+2018-07-20 20:35:25,091 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,091 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Passed
+2018-07-20 20:35:25,091 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1.0","-2.0")
+2018-07-20 20:35:25,092 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Add("1.2","2.0")
+2018-07-20 20:35:25,092 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,092 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,092 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,092 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,095 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Add("1.2","-2.0")
+2018-07-20 20:35:25,095 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1.2","-2.0")
+2018-07-20 20:35:25,092 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Add("1.0","-2.0")
+2018-07-20 20:35:25,092 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,096 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,096 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,096 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,096 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,097 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,096 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,097 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,097 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Add(1,2)
+2018-07-20 20:35:25,097 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Add(1,-2)
+2018-07-20 20:35:25,097 INFO [ParallelWorker#3] AutoTest.LoggingTests.StartTest - Add("1.0","0.0")
+2018-07-20 20:35:25,098 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,098 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,098 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1.0","0.0")
+2018-07-20 20:35:25,098 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,098 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,098 DEBUG [ParallelWorker#3] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,099 ERROR [ParallelWorker#3] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,099 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,099 INFO [ParallelWorker#4] AutoTest.LoggingTests.StartTest - Add("1","-2")
+2018-07-20 20:35:25,099 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,099 INFO [ParallelWorker#1] AutoTest.LoggingTests.StartTest - Add("1","2")
+2018-07-20 20:35:25,101 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1,2)
+2018-07-20 20:35:25,101 DEBUG [ParallelWorker#4] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,101 ERROR [ParallelWorker#4] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,101 DEBUG [ParallelWorker#1] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,102 ERROR [ParallelWorker#1] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,102 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,102 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,102 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub(1,-2)
+2018-07-20 20:35:25,103 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,103 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,103 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1","2")
+2018-07-20 20:35:25,104 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,104 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
+2018-07-20 20:35:25,105 INFO [ParallelWorker#2] AutoTest.LoggingTests.StartTest - Sub("1","-2")
+2018-07-20 20:35:25,105 DEBUG [ParallelWorker#2] AutoTest.LoggingTests.EndTest - Status = Failed
+2018-07-20 20:35:25,105 ERROR [ParallelWorker#2] AutoTest.LoggingTests.EndTest - System.InvalidCastException : Specified cast is not valid.
